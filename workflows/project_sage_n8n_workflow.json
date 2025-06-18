@@ -40,7 +40,10 @@
     },
     {
       "parameters": {
-        "fileId": "={{$json[\"id\"]}}"
+        "fileId": "={{$json[\"id\"]}}",
+        "options": {
+          "fileName": "={{$json[\"name\"]}}"
+        }
       },
       "id": "3",
       "name": "Download PDF",
